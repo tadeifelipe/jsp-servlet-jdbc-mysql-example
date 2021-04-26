@@ -11,9 +11,9 @@ import java.util.List;
 import com.tadeifelipe.usermanagement.model.User;
 
 public class UserDAO {
-	private String jdbcURL = "jdbc:mysql://den1.mysql1.gear.host:3306/demo33?useSSL=false";
-	private String jdbcUsername = "demo33";
-	private String jdbcPassword = "Qm5m-5-Ajvlp";
+	private String jdbcURL = "";
+	private String jdbcUsername = "";
+	private String jdbcPassword = "";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, country) VALUES "
 			+ " (?, ?, ?);";
